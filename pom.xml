@@ -40,7 +40,8 @@
 				      <workers>1</workers>
 				      <workerType>Micro</workerType>
 				      <properties>
-				        <key>value</key>
+				        <env>${env}</env>
+				        <key>${key}</key>
 				      </properties>
 				    </cloudHubDeployment>
 				  </configuration>
